@@ -1,0 +1,7 @@
+<div id="box" >
+    <h2>Parent Component</h2>
+    <button class="btn btn-success" (click)="showDiv()" > Show Div </button>
+    <br><br>
+    <button class="btn btn-danger" (click)="hideDiv()" > Hide Div </button>
+</div>
+<app-child [viewDiv]="divmsg" [message]="Array"  ></app-child>
